@@ -1,0 +1,4 @@
+# bash-sample
+Bashシェルスクリプトのサンプル
+
+#log
