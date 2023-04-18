@@ -11,6 +11,12 @@ fi
 
 #ログファイルを作成
 FILE="$DIR/log.txt"
-TODAY=`data'+%Y-%m-%d %H:%M:%S`
-echo "$TODAY Log Write!!" >> $FILE
+
+for ((i=1; i<=10; i++))
+do
+    TODAY=`data'+%Y-%m-%d %H:%M:%S`
+    echo "$TODAY Log Write $i!!!" >> $FILE
+    sleep 5
+done
+
 
